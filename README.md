@@ -1,5 +1,3 @@
-![GA logo!!!](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
-
 # JavaScript Winter REPS!
 
 Type: Homework<br>
@@ -19,22 +17,46 @@ fork/clone/etc -- u know what to do
 ### A. Q + A
 
 1. How do we assign a value to a variable? 
-2. How do we change the value of a variable? 
-3. How do we assign an existing variable to a new variable?
-4. Remind me, what are `declare`, `assign`, and `define`?
-5. What is pseudocoding and why should you do it?
-6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+* javaScript: _Start variable name with `var`, then variable name followed by an equal-to sign, then the value in._
+* Python: _We can assign a value to a variable just straight, no need to have `var` or anything._
+_Examples: In javaScript:_   `var num = 9;`, `var name = "Julie";`, var `is_present = true;` etc
+            _Python:_   `num = 9`, `name = "Julie"`, `is_present = True`, _semi-colon is often not written_
 
+2. How do we change the value of a variable? 
+* javaScript/Python: _We can simply change or substitute the pre-asigned value by assigning new value to the variable._
+_Example: javaScript:_  `var num = 9`; _we can change the value by assigning a new value:_ `num = 1`; _Now the value of `num` is 1._
+         _Python_:_ `num = 9`; _We cahnge it to new_ `value:_ num = 1` _, Now the new value is 1._
+
+3. How do we assign an existing variable to a new variable?
+* _Say_ var `num = 9`; _We can assign the value of num to other variable as_ var `other_num = num;` _now the value of `other_num = 9` 
+  _Same way javaScript and Python._
+
+4. Remind me, what are `declare`, `assign`, and `define`?
+* `declare` _is to have memory location for any variable_
+* `assign` _is to give any value to the declared variable. It may be a new value or any other value derived or borrowe from other variable/s._
+* `define` _is to assign a value to the declared value._
+
+5. What is pseudocoding and why should you do it?
+* `pseudocoding` _is to writing human readable code or logic before coding in any programing language._
+
+6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+* _40:60, though there is no hard and fast rule._
 :red_circle: Commit.
 
 ### B. Strings
 
 1. Create a variable called `firstVariable`.
+* * `var firstvariable;`
   - Assign it the value of the string `"Hello World"`
+  * `var firstvariable; = "Hello world"`
   - Change the value of this variable to some number.
+  * `firstvariable = "Hello beuatiful world"`
   - Store the value of `firstVariable` in a new variable called `secondVariable` 
+  * `secondVariable = firstvariable`
   - Change the value of `secondVariable` to any string. 
+  * `secondVariable = "different value now"`
   - What is the value of `firstVariable`?
+  * `firstVariable`_is still_ `"Hello beuatiful world"`
 
 2. Create a variable called `yourName` and set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable `yourName` so that it returns a new string with them concatenated. 
   
