@@ -37,7 +37,7 @@ _Example: javaScript:_  `var num = 9`; _we can change the value by assigning a n
 * `define` _is to assign a value to the declared value._
 
 5. What is pseudocoding and why should you do it?
-* `pseudocoding` _is to writing human readable code or logic before coding in any programing language._
+* `pseudocoding` _is to write human readable code or logic before coding in any programing language. It assumed to be a language that lies between      programming language and natural language._
 
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 * _40:60, though there is no hard and fast rule._
@@ -59,7 +59,8 @@ _Example: javaScript:_  `var num = 9`; _we can change the value by assigning a n
   * `firstVariable`_is still_ `"Hello beuatiful world"`
 
 2. Create a variable called `yourName` and set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable `yourName` so that it returns a new string with them concatenated. 
-  
+* `var yourName = "John Travolta"` 
+  `console.log ("Hello, my name is " + yourName)`
 >ex: `Hello, my name is Jean Valjean`
   
 :red_circle: Commit.
@@ -74,16 +75,16 @@ _Example: javaScript:_  `var num = 9`; _we can change the value by assigning a n
   const d = 16;
   const e = 'Kevin';
 
-  console.log(a __ b);
-  console.log(c __ d);
-  console.log('Name' __ 'Name');
-  console.log(true __ false);
+  console.log(a < b);
+  console.log(c > d);
+  console.log('Name' == 'Name');
+  console.log(true != false);
   console.log(false __ false __ false __ false __ false __ false __ true);
-  console.log(false __ false)
-  console.log(e ___ 'Kevin');
-  console.log(a __ b ___ c);
-  console.log(a __ a ___ d);
-  console.log(48 __ '48');
+  console.log(false == false)
+  console.log(e == 'Kevin');
+  console.log(a + b == c);
+  console.log(a * a == d);
+  console.log(48 == '48');
 ```
 
 :red_circle: Commit.
@@ -91,8 +92,13 @@ _Example: javaScript:_  `var num = 9`; _we can change the value by assigning a n
 ### D. The farm
 
 1. Declare a variable `animal`.  Set it to be either "cow" or something else.
+* `var animal = "cow"`
+
 2. Write code that will print out "mooooo" if the it is equal to `cow`.
+* `if (animal == "cow"){console.log("moooo");`
+
 3. Change your code so that if the variable `animal` is anything other than a cow, it will print "Hey! You're not a cow."
+* `if (animal != "cow"){console.log("Hey! You're not a cow.")}`
 4. Commit.
 
 :red_circle: Commit.
